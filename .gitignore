@@ -1,0 +1,86 @@
+# Root workspace
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.python-version
+.DS_Store
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Git metadata from nested repos
+SCUM Robot/.git/
+SCUM Robot Web/.git/
+
+# Environment files
+SCUM Robot/.env
+SCUM Robot Web/.env
+*.env.local
+*.local
+
+# Python build artifacts
+build/
+dist/
+dist-ssr/
+wheels/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node artifacts
+SCUM Robot Web/node_modules/
+SCUM Robot Web/dist/
+SCUM Robot Web/cypress/videos/
+SCUM Robot Web/cypress/screenshots/
+coverage/
+*.tsbuildinfo
+
+# Runtime data
+*.db
+*.sqlite
+*.sqlite3
+backups/
+SCUM Robot/backups/
+
+# Generated frontend integration output
+SCUM Robot/public/*
+!SCUM Robot/public/.gitkeep
+!SCUM Robot/public/images/
+SCUM Robot/public/images/*
+!SCUM Robot/public/images/.gitkeep
+!SCUM Robot/public/images/items/
+!SCUM Robot/public/images/gifts/
+SCUM Robot/public/images/items/*
+!SCUM Robot/public/images/items/.gitkeep
+!SCUM Robot/public/images/items/imgs/
+!SCUM Robot/public/images/items/thumbs/
+SCUM Robot/public/images/items/imgs/*
+!SCUM Robot/public/images/items/imgs/.gitkeep
+SCUM Robot/public/images/items/thumbs/*
+!SCUM Robot/public/images/items/thumbs/.gitkeep
+SCUM Robot/public/images/gifts/*
+!SCUM Robot/public/images/gifts/.gitkeep
+!SCUM Robot/public/images/gifts/imgs/
+!SCUM Robot/public/images/gifts/thumbs/
+SCUM Robot/public/images/gifts/imgs/*
+!SCUM Robot/public/images/gifts/imgs/.gitkeep
+SCUM Robot/public/images/gifts/thumbs/*
+!SCUM Robot/public/images/gifts/thumbs/.gitkeep
+
+# Archives and binaries
+*.zip
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
